@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Classettes</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="img/png" href="img/img3.jpg">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="main--header__container">
+        <h1 class="main-header__tittle">Classettes</h1>
+      </div>
+      <div class="main-header__container">
+        <p><i class="fas fa-phone"></i> Contacto</p>
+      </div>
+      <div class="main-header__container">
+        <i class="fas fa-user"> Iniciar sesion / registrarse</i>
+        <a href="" class="main-header__btn"><i class="fas fa-shopping-cart"></i></a>
+        <input type="search" class="main-header__input" placeholder="buscar productos"><i class="fas fa-search"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-slider">
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="img/img1.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__tittle">Men´s eyewear</h2>
+          <p class="slider__txt">Cool summer sale 50% off</p>
+          <a href="" class="slider__link">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="img/img2.jpg" alt="" class="slider__img">
+      </div>
+
+      <div class="slider__section">
+        <img src="img/img3.jpg" alt="" class="slider__img">
+      </div>
+
+      <div class="slider__section">
+        <img src="img/img4.jpg" alt="" class="slider__img">
+      </div>
+    </div>
+
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+
+  <main class="main">
+    <div class="container">
+      <h2 class="main tittle">New Arrivals for you</h2>
+
+      <section class="container-products">
+        <div class="product">
+          <img src="img/img5.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">farenheit</h3>
+            <span class="product__price">575.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img6.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
