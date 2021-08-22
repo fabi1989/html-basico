@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Sugarpie";
+  src: url(C:\Users\usuario\Code\html-basico\fonts);
+}
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #92c5fc;
+}
+.form-register {
+  width: 400px;
+  background: #f3f3f3;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-register h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "SugarPie";
+}
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid;
+}
+
+.form-register .botons {
+  width: 40%;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #92c5fc;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-register p {
+  text-align: center;
+  padding: 12px
+  ;
+}

@@ -5,23 +5,30 @@
 <head>
   <title>Classettes</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="icon" type="img/png" href="img/img3.jpg">
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="container container--flex">
-      <div class="main--header__container">
-        <h1 class="main-header__tittle">Classettes</h1>
+  <header class="header__container">
+    <div class="header__content">
+      <div class="header__content__left">
+        <div class="">
+          <h1 class="header__title">Classettes</h1>
+        </div>
       </div>
-      <div class="main-header__container">
-        <p><i class="fas fa-phone"></i> Contacto</p>
-      </div>
-      <div class="main-header__container">
-        <i class="fas fa-user"> Iniciar sesion / registrarse</i>
-        <a href="" class="main-header__btn"><i class="fas fa-shopping-cart"></i></a>
-        <input type="search" class="main-header__input" placeholder="buscar productos"><i class="fas fa-search"></i>
+
+      <div class="header__content__right">
+        <a href="formulario.html" class="header__btn">
+          <i class="fas fa-user"> Iniciar sesion</i>
+        </a>
+        <a href="" class="header__btn">
+          <i class="fas fa-shopping-bag"></i>
+        </a>
+        <a href="" class="header__btn">
+          <i class="fas fa-envelope"></i>
+        </a>
       </div>
     </div>
   </header>
@@ -29,7 +36,7 @@
   <div class="container-slider">
     <div class="slider" id="slider">
       <div class="slider__section">
-        <img src="img/img1.jpg" alt="" class="slider__img">
+        <img src="img/slid1.jpg" alt="" class="slider__img">
         <div class="slider__content">
           <h2 class="slider__tittle">Men´s eyewear</h2>
           <p class="slider__txt">Cool summer sale 50% off</p>
@@ -38,15 +45,15 @@
       </div>
 
       <div class="slider__section">
-        <img src="img/img2.jpg" alt="" class="slider__img">
+        <img src="img/slid2.jpg" alt="" class="slider__img">
       </div>
 
       <div class="slider__section">
-        <img src="img/img3.jpg" alt="" class="slider__img">
+        <img src="img/slid3.jpg" alt="" class="slider__img">
       </div>
 
       <div class="slider__section">
-        <img src="img/img4.jpg" alt="" class="slider__img">
+        <img src="img/slid4.jpg" alt="" class="slider__img">
       </div>
     </div>
 
@@ -56,14 +63,50 @@
 
   <main class="main">
     <div class="container">
-      <h2 class="main tittle">New Arrivals for you</h2>
+      <h2 class="main tittle">Nuevos diseños</h2>
 
       <section class="container-products">
         <div class="product">
+          <img src="img/img1.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">Constelaciones</h3>
+            <span class="product__price">575.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img2.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img3.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img4.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
           <img src="img/img5.jpg" alt="" class="product__img">
           <div class="product__description">
-            <h3 class="product__tittle">farenheit</h3>
-            <span class="product__price">575.00</span>
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
           </div>
           <i class="product__icon fas fa-cart-plus"></i>
         </div>
@@ -76,6 +119,403 @@
           </div>
           <i class="product__icon fas fa-cart-plus"></i>
         </div>
+
+        <div class="product">
+          <img src="img/img7.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img8.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img9.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img10.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img11.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img12.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img13.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img14.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img15.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img16.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img17.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img18.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img19.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img20.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img21.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img22.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img23.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img24.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img25.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img26.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img27.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img28.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img29.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img30.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img31.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img32.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img33.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img34.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img35.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img36.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img37.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img38.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img39.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img40.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img41.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img42.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img43.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img44.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img45.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img46.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img47.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img48.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img49.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
+        <div class="product">
+          <img src="img/img50.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__tittle">gris</h3>
+            <span class="product__price">200.00</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+
       </section>
     </div>
   </main>
