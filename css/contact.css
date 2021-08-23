@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #92c5fc;
+}
+
+.form-contact {
+  width: 400px;
+  background:cornsilk;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
