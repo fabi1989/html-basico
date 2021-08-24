@@ -10,7 +10,7 @@ body {
 
 .form-contact {
   width: 400px;
-  background:cornsilk;
+  background: #f3f3f3;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -20,3 +20,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.form-contact h4{
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.ingreso {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid;
+}
+
+textarea {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+
+.form-contact .botons {
+  width: 40%;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #92c5fc;
+  color: #ffffff;
+  cursor: pointer;
+}
+
