@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 7px 13px 37px rgb(49, 49, 49);
 }
 
 .form-contact h4{
@@ -36,11 +37,21 @@ body {
   border: 1px solid;
 }
 
+.ingreso:hover {
+  border: 1px solid rgb(112, 106, 106);
+}
+
 textarea {
   border-radius: 4px;
   margin-bottom: 20px;
   border: 1px solid;
   padding: 10px;
+  color: #0a0a0a;
+  font-style:italic;
+}
+
+textarea:hover {
+  border:  1px solid rgba(112, 106, 106);
 }
 
 
@@ -49,8 +60,16 @@ textarea {
   padding: 12px;
   border-radius: 4px;
   border: none;
-  background-color: #92c5fc;
+  background-color: #2371c4;
   color: #ffffff;
   cursor: pointer;
+}
+
+.botons:hover {
+  background: #92c5fc;
+}
+.botons:focus  {
+  background: #2371c4;
+  color: #ffffff;
 }
 

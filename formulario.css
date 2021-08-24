@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 7px 13px 37px rgb(49, 49, 49);
 }
 
 .form-register h4 {
@@ -39,19 +40,32 @@ body {
   margin-bottom: 16px;
   border: 1px solid;
 }
+.controls:hover {
+  border: 1px solid rgb(112, 106, 106);
+}
 
 .form-register .botons {
   width: 40%;
   padding: 12px;
   border-radius: 4px;
   border: none;
-  background-color: #92c5fc;
+  background-color: #2371c4;
   color: #ffffff;
   cursor: pointer;
 }
 
+.botons:hover {
+  background: #92c5fc;
+}
+
+.botons:focus {
+  background: #2371c4;
+  color: #ffffff;
+}
+
+
 .form-register p {
   text-align: center;
-  padding: 12px
-  ;
+  padding: 12px;
 }
+
