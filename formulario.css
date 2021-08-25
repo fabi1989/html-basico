@@ -3,21 +3,34 @@
   src: url(C:\Users\usuario\Code\html-basico\fonts);
 }
 
-* {
+body {
   margin: 0;
-  padding: 0%;
+  background-color: #92c5fc;
+}
+
+* {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #92c5fc;
+.section-content {
+  padding: 10px 20px;
 }
-.form-register {
-  width: 400px;
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.form-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.form-content {
+  width: 100%;
   background: #f3f3f3;
   padding: 30px;
-  margin: auto;
-  margin-top: 100px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -26,46 +39,74 @@ body {
   box-shadow: 7px 13px 37px rgb(49, 49, 49);
 }
 
-.form-register h4 {
+.form-title {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   text-align: center;
   font-family: "SugarPie";
 }
 
-.controls {
+.input-container {
+  width: 40%;
+  max-width: 300px;
+}
+
+.input-box {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid;
-}
-.controls:hover {
-  border: 1px solid rgb(112, 106, 106);
+  border: 2px solid black;
 }
 
-.form-register .botons {
-  width: 40%;
+.input-box:focus {
+  border-color: rgb(173, 3, 173);
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  margin: 0 -5px;
+}
+
+.action {
+  width: 50%;
+  padding: 0 5px 10px;
+}
+
+.btn {
+  min-width: 150px;
+  max-width: 175px;
   padding: 12px;
-  border-radius: 4px;
-  border: none;
-  background-color: #2371c4;
-  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid transparent;
   cursor: pointer;
 }
 
-.botons:hover {
-  background: #92c5fc;
+.btn--primary {
+  border-color: #1b67a7;
+  background-color: #2371c4;
+  color: white;
 }
 
-.botons:focus {
-  background: #2371c4;
-  color: #ffffff;
+.btn--primary:hover, .btn--primary:focus {
+  background: #3a95f5;
 }
 
-
-.form-register p {
-  text-align: center;
-  padding: 12px;
+.btn--primary:active {
+  background: #1b67a7;
 }
 
+.btn--secondary {
+  border-color: #cce5ff;
+  background-color: #cce5ff;
+  color: black;
+}
+
+.btn--secondary:hover, .btn--secondary:focus {
+  background: #ebf5ff;
+}
+
+.btn--secondary:active {
+  background: #b6d7fa;
+}
