@@ -8,12 +8,24 @@ body {
   background-color: #92c5fc;
 }
 
-.form-contact {
-  width: 400px;
+.section-content{
+  padding: 10px 20px;
+}
+
+.section-content h1 {
+  margin: 50px;
+  padding: 0px;
+}
+
+.form-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.form-content {
+  width: 100%;
   background: #f3f3f3;
   padding: 30px;
-  margin: auto;
-  margin-top: 100px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -22,11 +34,20 @@ body {
   box-shadow: 7px 13px 37px rgb(49, 49, 49);
 }
 
-.form-contact h4{
+.form-content h4{
   font-size: 28px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   text-align: center;
-  font-family: monospace;
+  font-family: "SugarPie";
+}
+
+
+.title {
+  font-family: "SugarPie";
+  text-align: center;
+  padding: 50px  0;
+  margin: 0;
+  font-size: 30px;
 }
 
 .ingreso {
@@ -34,28 +55,29 @@ body {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid;
+  border: 2px solid black;
 }
 
-.ingreso:hover {
-  border: 1px solid rgb(112, 106, 106);
+.input-container {
+  width: 40%;
+  max-width: 300px;
+}
+
+.ingreso:focus{
+  border-color: rgb(173, 3, 173);
+  outline: none;
 }
 
 textarea {
   border-radius: 4px;
   margin-bottom: 20px;
-  border: 1px solid;
+  border: 2px solid black;
   padding: 10px;
   color: #0a0a0a;
   font-style:italic;
 }
 
-textarea:hover {
-  border:  1px solid rgba(112, 106, 106);
-}
-
-
-.form-contact .botons {
+.form-content .botons {
   width: 40%;
   padding: 12px;
   border-radius: 4px;

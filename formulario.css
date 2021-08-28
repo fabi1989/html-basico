@@ -16,6 +16,12 @@ body {
   padding: 10px 20px;
 }
 
+.section-content h1 {
+  font-family:"SugarPie";
+  font-size: 30px;
+  margin: 10px 0;
+}
+
 .title {
   text-align: center;
   margin: 0;
