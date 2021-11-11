@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "sugarpie";
+  src: url(C:\Users\usuario\Code\html-basico\fonts);
+}
+
+body{
+  margin: 0;
+  background-color: #ffffff ;
+}
+
+h1{
+  font-family: "sugarpie";
+  text-align: center;
+  font-size: 28px;
+  
+}
+
+.section-mycar{
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h4{
+  max-width: 1024px;
+  justify-content: center;
+}

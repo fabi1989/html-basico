@@ -1,6 +1,12 @@
 .header__container {
   background-color: white;
   padding: 10px 0;
+  border-bottom: 1px solid rgb(223, 220, 220);
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 .header__content {
@@ -11,6 +17,7 @@
   align-items: center;
   justify-content: space-between;
   height: 30px;
+
 }
 
 @media(min-width: 1200px) {
@@ -24,10 +31,17 @@
   align-items: center;
 }
 
+
+
 .header__title {
   font-family: "SugarPie";
-  font-size: 30px;
+  font-size: 32px;
   margin: 10px 0;
+  color: black;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header__btn {
@@ -41,3 +55,4 @@
   display: block;
   padding: 4px;
 }
+

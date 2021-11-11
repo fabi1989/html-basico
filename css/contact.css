@@ -5,9 +5,8 @@
 }
 
 body {
-  background-color: #92c5fc;
+  background-color: #ffffff;
 }
-
 
 
 .section-content h1 {
@@ -52,12 +51,16 @@ body {
   font-size: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .ingreso {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .input-container {
@@ -73,10 +76,16 @@ body {
 textarea {
   border-radius: 4px;
   margin-bottom: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 10px;
   color: #0a0a0a;
-  font-style:italic;
+  font-style:normal;
+
+}
+
+textarea:focus{
+  border-color: rgb(173, 3, 173);
+  outline: none;
 }
 
 .form-content .botons {

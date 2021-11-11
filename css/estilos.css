@@ -17,6 +17,17 @@ img {
   display: none;
 }
 
+h2{
+  border-bottom:black 1px solid;
+  position:sticky;
+  z-index: 1000;
+  width: 100%;
+  top: 50px;
+  border: 1px 0 solid black;
+  background: white;
+}
+
+
 .icon-menu{
   font-size: 1.5em;
   border: 1px solid black;
@@ -31,6 +42,9 @@ img {
   text-align: center;
 }
 
+.back-drop {
+  height: 20px;
+}
 
 .container-slider{
   margin: 50px 0;
@@ -137,6 +151,7 @@ img {
   padding: 20px;
   text-align: center;
   position: relative;
+  background: rgb(253, 253, 253);
 }
 .product:before {
   content: "Nuevo";
@@ -164,4 +179,29 @@ img {
 .product__icon {
   display: block;
   margin-top: 10px;
+}
+
+h5{
+  border-top: black 1px solid;
+  text-align: center; 
+}
+
+.piepagina{
+  justify-items: center;
+
+}
+
+.btninstagram{
+  display: block;
+  padding: 10px 10px;
+  color: black;
+  text-decoration: none;
+  height: 10px;
+  width: 10px;
+  margin: 20px auto;
+}
+
+.footerbtn{
+  display: flex;
+  align-items: center;
 }
